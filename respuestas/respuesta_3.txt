@@ -1,1 +1,5 @@
-TIPO | Justificación corta
+La plataforma registra millones de lecturas de sensores IoT por segundo, siendo las consultas realizadas principalmente por rangos temporales. En este escenario, la solución más adecuada es una **base de datos especializada en series temporales**, como InfluxDB o TimescaleDB.
+
+Las bases de datos de series temporales están optimizadas para gestionar grandes volúmenes de datos generados de forma continua y asociados a marcas de tiempo. Proporcionan mecanismos eficientes para la indexación temporal, compresión de datos históricos y ejecución de consultas por intervalos de tiempo, incluyendo agregaciones como promedios, máximos o mínimos.
+
+En comparación con una base de datos relacional tradicional, una solución orientada a series temporales ofrece un mejor rendimiento y una mayor eficiencia en sistemas con altas tasas de escritura y consultas basadas en el tiempo.

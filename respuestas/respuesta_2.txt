@@ -1,1 +1,5 @@
-TIPO | Justificación corta
+La aplicación almacena perfiles de usuario con estructura variable, presencia de campos opcionales y evolución frecuente del esquema. En este caso, la alternativa más apropiada es una **base de datos orientada a documentos**, como MongoDB.
+
+Este tipo de base de datos permite almacenar información en formato JSON o BSON, sin requerir un esquema rígido previamente definido. Cada documento puede contener diferentes campos, lo que facilita la incorporación de nuevos atributos o la modificación de los existentes sin necesidad de realizar migraciones estructurales complejas.
+
+Por lo tanto, las bases de datos documentales son particularmente adecuadas en entornos donde la flexibilidad y la adaptabilidad del modelo de datos son requisitos fundamentales.
