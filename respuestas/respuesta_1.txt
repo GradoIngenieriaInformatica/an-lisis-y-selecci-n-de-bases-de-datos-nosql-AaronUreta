@@ -1,1 +1,5 @@
-TIPO | Justificación corta
+El sistema descrito gestiona relaciones complejas entre usuarios, intereses y eventos, además de requerir recorridos frecuentes y análisis de conexiones indirectas. En este contexto, la solución más adecuada es una **base de datos orientada a grafos**, como por ejemplo Neo4j.
+
+Las bases de datos de grafos están diseñadas para modelar entidades como nodos y las relaciones entre ellas como aristas, lo que permite representar de manera natural estructuras altamente interconectadas. Este enfoque resulta especialmente eficiente cuando se requieren consultas como detección de comunidades, análisis de conexiones indirectas o cálculo de caminos entre entidades.
+
+En comparación con una base de datos relacional, donde sería necesario realizar múltiples operaciones JOIN, una base de datos de grafos ofrece un mejor rendimiento y mayor claridad en escenarios centrados en relaciones complejas.
